@@ -5,12 +5,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float moveSpeed;
     [SerializeField] float turnSpeed;
 
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    
     void Update()
     {
         float turnInput = Input.GetAxis("Horizontal");
